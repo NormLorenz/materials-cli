@@ -1,0 +1,32 @@
+@import 'ember-paper';
+
+.flex-layout {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container {
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  width: 225px;
+  display: flex;
+}
+
+.flex-title {
+  width: 600px;
+  font-family: 'Roboto Mono',Roboto,sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+}
+
+.flex-disclosure {
+  text-align: justify;
+}

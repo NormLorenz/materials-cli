@@ -1,0 +1,29 @@
+{{#paper-content class='flex-layout'}}
+  {{#paper-content class='flex-container'}}
+
+    <h2 class='flex-title'>Sign up for the Google Design Newsletter</h2>
+
+    {{paper-input class='flex-item' label='Full name' value=fullName onChange=(action (mut fullName)) required=true errorMessages=(hash required='Full name is required')}}
+    {{paper-input class='flex-item' label='Email' value=emailAddress onChange=(action (mut emailAddress)) required=true errorMessages=(hash required='Email is required')}}
+    {{paper-input class='flex-item' label='Company' value=company onChange=(action (mut company))}}
+    {{paper-input class='flex-item' label='Role' value=role onChange=(action (mut role))}}
+    {{paper-input class='flex-item' label='City' value=city onChange=(action (mut city))}}
+
+    {{#paper-select class='flex-item' placeholder="Country" value=country onChange=(action (mut country))}}
+    {{#each countries as |country|}}
+      {{#paper-option value=country}}
+        {{country}}
+      {{/paper-option}}
+    {{/each}}
+    {{/paper-select}}
+
+    {{#paper-checkbox value=letmeKnow onChange=(action (mut letmeKnow))}}Let me know about Google Design events and giveaways{{/paper-checkbox}}
+
+    <small class='flex-disclosure'>By providing your name and email address and opting in to receive newsletter or other information from Google Design, 
+    you agree for Google to collect and store your information for the sole purpose to send you the newsletter or other 
+    information that you specifically stated in this form.</small>
+
+    {{#paper-button raised=true}}Submit{{/paper-button}}
+
+  {{/paper-content}}
+{{/paper-content}}

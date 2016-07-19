@@ -1,0 +1,25 @@
+{{#paper-toolbar}}
+   {{#paper-toolbar-tools}}
+
+     {{#paper-button iconButton=true onClick=(action 'indexButton')}}
+       {{paper-icon 'home'}}
+     {{/paper-button}}
+
+     <h2>
+       Toolbar with Icon Buttons
+     </h2>
+
+     <span class='flex'></span>
+
+     {{#paper-button iconButton=true onClick=(action 'setupButton')}}
+       {{paper-icon 'email'}}
+     {{/paper-button}}
+
+     {{#paper-button iconButton=true onClick=(action 'aboutButton')}}
+       {{paper-icon 'more-vert'}}
+     {{/paper-button}}
+
+   {{/paper-toolbar-tools}}
+ {{/paper-toolbar}}
+
+{{outlet}}
