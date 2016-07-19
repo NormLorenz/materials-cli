@@ -100,4 +100,24 @@ using a debouncing observer from a raw value to an actual value
  
 another good read on ember-data 2
 [here](https://vimeo.com/146840596)
+
+### 7/18/2016
+* [update git version 1.9.1 to latest (2.9.2)](https://www.howtoforge.com/install-git-on-ubuntu-13.1)
+* figure out name and email
+  * git config --global user.name "YOUR NAME"
+  * git config --global user.email "YOUR EMAIL ADDRESS"
+  * git config --list
+* check in source to local git
+* sync or push source to github on the internet
+note: git push is how you transfer commits from your local repository to a remote repository
+ 
+https://code.visualstudio.com/docs/editor/versioncontrol see credential helper
+ 
+* http://stackoverflow.com/questions/29993599/how-to-do-git-push-in-visual-studio-code
+ 
+[setting up git](https://help.github.com/articles/set-up-git/)
+ 
+update vsc at work
+ 
+https://git-scm.com/
  
