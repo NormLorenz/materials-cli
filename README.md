@@ -51,7 +51,7 @@ Specify what it takes to deploy your app.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
-## Project Details
+### Project Details
 
 http://www.flexboxdefense.com
 http://www.flexboxfroggy.com
@@ -77,8 +77,10 @@ Jeffrey Biles is the presenter
 [angular material design](https://material.angularjs.org/latest/layout/introduction)
 
 {{paper-input label='Email' type='email' value=email customValidations=multipleConstraints}}
+
 {{paper-input class="md-block" label="Value should be even and equal 4." type="email" value=customMultiple onChange=(action (mut customMultiple)) customValidations=multipleConstraints}}
-{{paper-input label="E-mail" type="email" value=customemail onChange=(action (mut customemail)) customValidations=emailValidation}}
+
+{{paper-input label="E-mail" type="email" value=customemail onChange=(action (mut customemail)) customValidations=emailValidation}}  
 
 In addition to required, min, max, and maxlength, you may define your own custom validations.
 Custom validations are defined by an object with two attributes, errorMessage and isError.
@@ -98,7 +100,7 @@ There is also a validation library on ember add-ons that can be used such as emb
 write a validator ember g validator unique-username from above video
 using a debouncing observer from a raw value to an actual value
  
-### 7/18/2016
+### 7/18/2016 implementing git
 
 * [update git version 1.9.1 to latest (2.9.2)](https://www.howtoforge.com/install-git-on-ubuntu-13.1)
 * figure out name and email - done
@@ -106,15 +108,19 @@ using a debouncing observer from a raw value to an actual value
   * git config --global user.email "YOUR EMAIL ADDRESS"
   * git config --list
 * check in source to local git - done
-* push source to github on the internet - done
 * when the following is run from a terminal window:
   * git remote add origin https://github.com/NormLorenz/materials-cli.git
   * a publish option is enabled
-  * when the publish is clicked you can enter a user name and password
+  * when the publish is clicked enter a user name and password
+    * normlorenz
+    * 185Hoffman
+* when you make updates to the the source
+  * commit the changes to the local source repository
+  * click push under and ... enter a user name and password
     * normlorenz
     * 185Hoffman
 
-### 7/20/2016
+### 7/20/2016 implement ember-notify
  
 [ember-notify](http://us4.campaign-archive1.com/?u=82fc5505437d5de6e27bffc87&id=39d21cd4f7&e=1d7c494397)
 * https://github.com/aexmachina/ember-notify
