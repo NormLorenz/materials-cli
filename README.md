@@ -51,7 +51,7 @@ Specify what it takes to deploy your app.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
-### Project Details
+## 7/1/2016 materials project details
 
 http://www.flexboxdefense.com
 http://www.flexboxfroggy.com
@@ -100,7 +100,7 @@ There is also a validation library on ember add-ons that can be used such as emb
 write a validator ember g validator unique-username from above video
 using a debouncing observer from a raw value to an actual value
  
-### 7/18/2016 implementing git
+## 7/18/2016 implement git
 
 * [update git version 1.9.1 to latest (2.9.2)](https://www.howtoforge.com/install-git-on-ubuntu-13.1)
 * figure out name and email - done
@@ -120,10 +120,10 @@ using a debouncing observer from a raw value to an actual value
     * normlorenz
     * 185Hoffman
 
-### 7/20/2016 implement ember-notify
+## 7/20/2016 implement ember-notify
  
-[ember-notify](http://us4.campaign-archive1.com/?u=82fc5505437d5de6e27bffc87&id=39d21cd4f7&e=1d7c494397)
+* http://us4.campaign-archive1.com/?u=82fc5505437d5de6e27bffc87&id=39d21cd4f7&e=1d7c494397
 * https://github.com/aexmachina/ember-notify
 * http://simonwade.me/ember-notify
-
-[setup a node project](https://code.visualstudio.com/docs/runtimes/nodejs)
+* https://code.visualstudio.com/docs/runtimes/nodejs
+* shift + control + v toggles the markdown display
