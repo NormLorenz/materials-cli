@@ -98,57 +98,26 @@ There is also a validation library on ember add-ons that can be used such as emb
 write a validator ember g validator unique-username from above video
 using a debouncing observer from a raw value to an actual value
  
-another good read on ember-data 2
-[here](https://vimeo.com/146840596)
-
 ### 7/18/2016
 
 * [update git version 1.9.1 to latest (2.9.2)](https://www.howtoforge.com/install-git-on-ubuntu-13.1)
-* figure out name and email
+* figure out name and email - done
   * git config --global user.name "YOUR NAME"
   * git config --global user.email "YOUR EMAIL ADDRESS"
   * git config --list
-* check in source to local git
-* push source to github on the internet
- 
-* http://stackoverflow.com/questions/29993599/how-to-do-git-push-in-visual-studio-code
- 
-[setting up git](https://help.github.com/articles/set-up-git/)
- 
-https://git-scm.com/
+* check in source to local git - done
+* push source to github on the internet - done
+* when the following is run from a terminal window:
+  * git remote add origin https://github.com/NormLorenz/materials-cli.git
+  * a publish option is enabled
+  * when the publish is clicked you can enter a user name and password
+    * normlorenz
+    * 185Hoffman
 
-### 7/19/2016
- 
-[how to move from a local to a remote repository](http://www.theregister.co.uk/2015/12/07/visual_studio_code_git_integration/)
+### 7/20/2016
  
 [ember-notify](http://us4.campaign-archive1.com/?u=82fc5505437d5de6e27bffc87&id=39d21cd4f7&e=1d7c494397)
 * https://github.com/aexmachina/ember-notify
 * http://simonwade.me/ember-notify
-* https://code.visualstudio.com/docs/runtimes/nodejs
- 
-* normlorenz
-* 185Hoffman
 
-* https://github.com/NormLorenz/materials-cli.git
-* git remote add origin https://github.com/NormLorenz/materials-cli.git
-* git push -u origin master
-
-### 7/20/2016
- 
-proxy.umpq.umpquabank.com
-git config --global http.proxy http://nlorenz:309Creekview!@10.232.5.254:80
-git config --global https.proxy https://nlorenz:309Creekview!@10.232.5.254:80
- 
-// normlorenz
-// 185Hoffman
-//https://github.com/NormLorenz/materials-cli.git
- 
-//git remote add origin https://github.com/NormLorenz/materials-cli.git
-//git push -u origin master
- 
-//git remote add origin https://github.com/NormLorenz/hello.git
-//git remote add origin https://NormLorenz:185Hoffman@github.com/NormLorenz/hello.git
-//git push -u origin master
- 
-https://channel9.msdn.com/Series/Visual-Studio-Code-for-Mac-Developers/How-to-intergate-Visual-Studio-Code-and-GitHub
- 
+[setup a node project](https://code.visualstudio.com/docs/runtimes/nodejs)
