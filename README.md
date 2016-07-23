@@ -131,3 +131,4 @@ https://code.visualstudio.com/docs/editor/versioncontrol
 * http://simonwade.me/ember-notify
 * https://code.visualstudio.com/docs/runtimes/nodejs
 * shift + control + v toggles the markdown display
+* control + '/' comment toggle
