@@ -112,13 +112,9 @@ using a debouncing observer from a raw value to an actual value
   * git remote add origin https://github.com/NormLorenz/materials-cli.git
   * a publish option is enabled
   * when the publish is clicked enter a user name and password
-    * normlorenz
-    * 185Hoffman
 * when you make updates to the the source
   * commit the changes to the local source repository
   * click push under and ... enter a user name and password
-    * normlorenz
-    * 185Hoffman
 
 ## 7/20/2016 implement ember-notify
  

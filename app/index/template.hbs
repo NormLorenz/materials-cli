@@ -1,3 +1,9 @@
-<h3>Index</h3>
+{{#paper-content class='flex-layout'}}
+  {{#paper-content class='flex-container'}}
 
-<h3><button {{action 'displayWarning'}}>{{title}}</button></h3>
+    <h2 class='flex-title'>Notify Add-On</h2>
+ 
+    {{#paper-button raised=true onClick=(action 'displayWarning')}}Nofify{{/paper-button}}
+
+  {{/paper-content}}
+{{/paper-content}}
