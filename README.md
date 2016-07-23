@@ -102,6 +102,14 @@ using a debouncing observer from a raw value to an actual value
  
 ## 7/18/2016 implement git
 
+SOURCE CONTROL - The pattern is to use both a local and remote repository and keep them in sync.
+Once a new project is created, the source will be saved 'commit' to the local git repository. Next
+a remote repository is created in github and the local repository is published 'publish' to the
+remote repository. Subsequent changes are first saved 'commit' in the local repository and next
+pushed 'push' to the remote repository.
+ 
+https://code.visualstudio.com/docs/editor/versioncontrol
+
 * [update git version 1.9.1 to latest (2.9.2)](https://www.howtoforge.com/install-git-on-ubuntu-13.1)
 * figure out name and email - done
   * git config --global user.name "YOUR NAME"
